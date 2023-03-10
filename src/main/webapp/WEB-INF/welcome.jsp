@@ -24,54 +24,22 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="w-[100vw]  flex flex-row ">
-        <div class="w-[50%] flex flex-col justify-center items-center h-[100vh]">
-            <img class="" src="https://media.licdn.com/dms/image/C560BAQEl6a9tUkSKfg/company-logo_200_200/0/1558604414993?e=2147483647&v=beta&t=liCSw94UkEjwbMZZh8N23ZMYixEAMmZNq2IftvsF97Y">
-            <h3 class="text-[#29375a] text-2xl font-bold">Rwanda Coding Academy</h3>
-        </div>
-
-        <div class="w-[50%] flex justify-center items-center h-[100vh] ">
-            <div class='w-[100%] h-[100%] bg-white flex flex-col justify-center items-center'>
-                <div class='w-[70%] mb-2'>
-                    <p class='text-3xl font-bold text-[#29375a] mb-2'>Login</p>
-                    <p>Welcome to RCA SMIS. Please enter your details.</p>
-                </div>
-                <div class='w-[70%] mt-5 mb-2 flex flex-row '>
-                    <div class=' w-[85%] flex flex-col justify-center items-center'>
-
-                        <div class='w-[100%] flex flex-col mb-5'>
-                            <label class='text-black' htmlFor="Configuration ID">Email</label>
-                            <input type="text" class='border-2xl w-[90%] h-10 rounded-md border-2 border-gray-300 ' />
-                        </div>
-
-                        <div class='w-[100%] flex flex-col mb-5'>
-                            <label class='text-black' htmlFor="Configuration ID">Password</label>
-                            <input type="text" class='border-2xl w-[90%] h-10 rounded-md border-2 border-gray-300 ' />
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class='w-[70%] flex flex-col justify-center'>
-
-                    <div class='w-[78%] flex flex-row mb-5 justify-between'>
-                        <div class='flex gap-1'> <input type="checkbox" name="" id="" /> <p> Remember me</p></div>
-                        <p class='text-[#29375a] cursor-pointer'>Forgot Password?</p>
-                    </div>
-
-
-                    <button class='bg-[#29375a] text-white w-[78%] text-center rounded-md p-3'>Sign In</button>
-                    <div class='flex w-[78%] items-center justify-center mt-2 mb-2 border-xl'>
-                        <div class='h-[1px] bg-gray-400 w-[40%]'></div>
-                        <div class='px-2 w-[20%] flex justify-center items-center'>OR</div>
-                        <div class='h-[1px] bg-gray-400 w-[40%]'></div>
-                    </div>
-                    <button class='bg-white shadow-xl text-center w-[78%] p-2 text-[#29375a] mb-2 '>Sign In with Google</button>
-                    <p class='text-center w-[78%]'>Already have an account? <span class='text-[#29375a] cursor-pointer'>Sign up </span></p>
-                </div>
-            </div>
-        </div>
-
-    </div>
+   <div>
+       <div  class="w-[100vw]  flex flex-row ">
+           <div class="w-[25%] flex flex-col justify-center items-center h-[100vh]">
+               <div class=" h-[40%] w-[80%] flex flex-col justify-center items-center">
+                   <img class="w-[60%] h-[60%]" src="https://media.licdn.com/dms/image/C560BAQEl6a9tUkSKfg/company-logo_200_200/0/1558604414993?e=2147483647&v=beta&t=liCSw94UkEjwbMZZh8N23ZMYixEAMmZNq2IftvsF97Y">
+                   <h3 class="text-center text-[#29375a] text-2xl font-bold">Rwanda Coding Academy</h3>
+               </div>
+               <div class="w-[80%] h-[60%] flex flex-col items-center">
+                   <div class="mt-2 mb-2"> <a class="text-xl font-bold hover:text-[#29375a]" href="/home">Home</a> </div>
+                   <div class="mt-2 mb-2"> <a class="text-xl font-bold hover:text-[#29375a]" href="/home">Teachers</a> </div>
+                   <div class="mt-2 mb-2"> <a class="text-xl font-bold hover:text-[#29375a]" href="/home">Students</a> </div>
+                   <div class="mt-2 mb-2"> <a class="text-xl font-bold hover:text-[#29375a]" href="/home">Report</a> </div>
+               </div>
+           </div>
+           <div class="w-[75%] bg-yellow-600 flex flex-col justify-center items-center h-[100vh]"></div>
+       </div>
+   </div>
 </body>
 </html>
